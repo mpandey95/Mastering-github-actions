@@ -3,5 +3,5 @@ resource "google_storage_bucket" "my-bucket" {
   location      = var.location
   project = var.project
   force_destroy = true
-  public_access_prevention = "enforced"
+  public_access_prevention = "enforced" 
 }
