@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   call-workflow-passing-data:
-    uses: vishal-bulbule/github-action-demo/.github/workflows/automate-readme.yml@master
+    uses: mpandey95/github-action-demo/.github/workflows/automate-readme.yml@master
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest

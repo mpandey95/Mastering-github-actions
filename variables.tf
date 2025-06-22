@@ -12,5 +12,5 @@ variable "location" {
 variable "project" {
   type = string
   description = "Project ID of the Google Cloud Platform project"
-  default = "tt-dev-001"
+  default = "mpandey95"
 }
